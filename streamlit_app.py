@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("Hope4Her")
 st.header("Your guide to be aware and get help on gender inequality related issues")
-st.write("If you need help, choose from one of the options below:")
+st.write("If you need help, click on the button and read the tips at the bottom:")
 sexualAbuse = st.button("Sexual Abuse")
 onlineAbuse = st.button("Online Abuse")
 harassment = st.button("Harassment")
