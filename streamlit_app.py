@@ -1,5 +1,6 @@
 import streamlit as st
 st.title("Hope4Her")
+st.write("Your guide to be aware and get help on gender inequality related issues")
 st.header("If you need help, choose from one of the options below:")
 sexualAbuse = st.button("Sexual Abuse")
 onlineAbuse = st.button("Online Abuse")
@@ -37,7 +38,7 @@ if other:
     st.write("If it is necessary, call 911")
     st.write("You can look at this [link]""(https://www.legalmomentum.org/get-help-form#:~:text=The%20Syms%20Legal%20Momentum%20Gender,gender%20discrimination%2C%20violence%20and%20harassment)")
     
-st.header("If you want to learn more abouut gender inequality, keep scrolling!")
+st.header("If you want to learn more about gender inequality, keep scrolling!")
 
 st.write("Gender inequality oftens happens in families, realationships, public places, and at work")
 st.write("The #1 cause of gender inequality is uneven acesses to education")
